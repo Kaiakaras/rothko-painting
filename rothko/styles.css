@@ -1,0 +1,119 @@
+body{
+    background-color: #b7b7b7;
+    overflow: hidden;
+}
+.sect {
+    background-color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px auto;
+    max-width: 1300px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.header-sec {
+    border-bottom: 1px solid #ccc;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 40px auto;
+    max-width: 900px;
+
+}
+
+.canvas {
+    background-color: #EC352F;
+    width: 405px;
+    height: 600px;
+    overflow: hidden;
+    margin-right: 50px;
+}
+
+.one {
+    height: 200px;
+    width: 397px;
+    background-color: #FC9B33; 
+    margin: 15px auto;
+    border-radius: 10px;
+    filter: blur(9px);
+    box-shadow: 0px 0px 10px 10px #ec973c;
+}
+.two {
+    height: 10px;
+    width: 397px;
+    background-color: #3e3734; 
+    margin: 15px auto;
+    border-radius: 3px;
+    filter: blur(2px);
+    
+}
+
+.three {
+    height: 100px;
+    width: 397px;
+    background-color: #FBF5E0; 
+    margin: 15px auto 3px auto;
+    border-radius: 3px;
+    filter: blur(2px);
+    box-shadow: 0px 0px 10px 5px #eeeadd;
+}
+
+.four {
+    height: 230px;
+    width: 397px;
+    background-color: #F4659C; 
+    margin: 0px auto;
+    border-radius: 3px;
+    filter: blur(2px);
+    box-shadow: 0px 0px 10px 5px #c4557f;
+}
+
+.right-box {
+    padding-right: 20px;
+}
+h1 {
+    font-size: 33px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+a {
+    color: #9fd284;
+}
+
+a:hover, a:active {
+    color: #93b18a;
+}
+
+.btn {
+    background-color: #b6e1ac;
+    border-radius: 7px;
+    box-shadow: none !important;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    padding: 4px 4px;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.log-in {
+    width: 22px;
+    background-color: #9fd284;
+    padding: 10px;
+    border-radius: 50px;
+    overflow: hidden;
+    z-index: 1;
+}
